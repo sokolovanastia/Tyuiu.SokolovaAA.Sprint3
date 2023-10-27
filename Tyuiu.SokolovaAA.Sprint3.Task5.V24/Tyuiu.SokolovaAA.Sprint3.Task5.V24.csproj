@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7DAB6F4A-5FE1-4716-BA92-C7B97E7DAE35}</ProjectGuid>
+    <ProjectGuid>{A192B6B4-4D02-49E9-AAAB-436E1C9B10D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_11234567890_</RootNamespace>
-    <AssemblyName>11234567890-</AssemblyName>
+    <RootNamespace>Tyuiu.SokolovaAA.Sprint3.Task5.V24</RootNamespace>
+    <AssemblyName>Tyuiu.SokolovaAA.Sprint3.Task5.V24</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.SokolovaAA.Sprint3.Task5.V24.Lib\Tyuiu.SokolovaAA.Sprint3.Task5.V24.Lib.csproj">
+      <Project>{84b4c3bf-9b0f-49a0-954f-7106de7dc59b}</Project>
+      <Name>Tyuiu.SokolovaAA.Sprint3.Task5.V24.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
